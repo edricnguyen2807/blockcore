@@ -1,5 +1,9 @@
 {
   "profiles": {
+    "BBTC (MAIN)": {
+      "commandName": "Project",
+      "commandLineArgs": "--chain=BBTC -server"
+    },
     "BCP (MAIN)": {
       "commandName": "Project",
       "commandLineArgs": "--chain=BCP -server -iprangefiltering=0 -maxtipage=2147483647 -rpcallowip=127.0.0.1 -rpcbind=127.0.0.1 -rpcpassword=rpcpassword -rpcuser=rpcuser -datadir=rocksdbdata"
@@ -40,6 +44,7 @@
       "commandName": "Project",
       "commandLineArgs": "-server -rpcallowip=127.0.0.1 -rpcbind=127.0.0.1 -rpcpassword=rpcpassword -rpcuser=rpcuser -datadir=nodedata -defaultwalletname=default -defaultwalletpassword=default -unlockdefaultwallet -server -testnet"
     },
+
     "CITY (MAIN)": {
       "commandName": "Project",
       "commandLineArgs": "--chain=CITY -server -rpcallowip=127.0.0.1 -rpcbind=127.0.0.1 -rpcpassword=rpcpassword -rpcuser=rpcuser -enableauth=0"
